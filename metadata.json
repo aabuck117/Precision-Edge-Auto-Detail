@@ -1,0 +1,6 @@
+{
+  "name": "Precision Edge Auto Detail",
+  "description": "Premium mobile auto detailing, ceramic coatings, and showroom-level results. Located in Miami with a sunset supercar aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
