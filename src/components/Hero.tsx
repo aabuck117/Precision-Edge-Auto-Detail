@@ -228,15 +228,15 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.8 }}
         >
-          <a href="https://heygoldie.com" target="_blank" rel="noreferrer" className="group relative px-10 py-5 bg-gradient-to-r from-sunset to-coral rounded-sm font-black uppercase italic text-black overflow-hidden flex items-center gap-2 transition-transform hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(255,99,33,0.3)]">
+          <a href="https://book.heygoldie.com/Precision-Edge-Auto-Detail/checkout" target="_blank" rel="noreferrer" className="group relative px-10 py-5 bg-gradient-to-r from-sunset to-coral rounded-sm font-black uppercase italic text-black overflow-hidden flex items-center gap-2 transition-transform hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(255,99,33,0.3)]">
             <span className="relative z-10">Book Your Detail</span>
             <ArrowRight size={18} className="relative z-10 group-hover:translate-x-1 transition-transform" />
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
           </a>
           
-          <button className="px-10 py-5 rounded-sm font-black uppercase italic text-warm-white border border-white/20 hover:bg-white/10 transition-colors flex items-center gap-2 backdrop-blur-sm">
+          <a href="#gallery" className="px-10 py-5 rounded-sm font-black uppercase italic text-warm-white border border-white/20 hover:bg-white/10 transition-colors flex items-center gap-2 backdrop-blur-sm">
             See Results
-          </button>
+          </a>
         </motion.div>
 
         {/* Interactive Insta Badge & Contact */}

@@ -111,7 +111,7 @@ export function FinalCTA() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="https://heygoldie.com" target="_blank" rel="noreferrer" className="px-10 py-5 bg-gradient-to-r from-sunset to-coral rounded-sm font-black uppercase italic text-black text-lg transition-transform hover:scale-105 shadow-[0_0_30px_rgba(255,99,33,0.4)] hover:shadow-[0_0_50px_rgba(255,99,33,0.6)]">
+            <a href="https://book.heygoldie.com/Precision-Edge-Auto-Detail/checkout" target="_blank" rel="noreferrer" className="px-10 py-5 bg-gradient-to-r from-sunset to-coral rounded-sm font-black uppercase italic text-black text-lg transition-transform hover:scale-105 shadow-[0_0_30px_rgba(255,99,33,0.4)] hover:shadow-[0_0_50px_rgba(255,99,33,0.6)]">
               Book Now
             </a>
             <a href="tel:9567061732" className="px-10 py-5 bg-white/5 border border-white/20 rounded-sm font-black uppercase italic text-warm-white text-lg hover:bg-white/10 transition-colors backdrop-blur-sm">
@@ -160,17 +160,16 @@ export function Footer() {
             <div>
               <h4 className="font-black italic uppercase text-warm-white mb-4">Quick Links</h4>
               <ul className="space-y-2 text-warm-white/60 text-[10px] font-bold uppercase tracking-widest">
-                <li><a href="#" className="hover:text-sunset transition-colors">Services</a></li>
-                <li><a href="#" className="hover:text-sunset transition-colors">Reviews</a></li>
-                <li><a href="#" className="hover:text-sunset transition-colors">Gallery</a></li>
-                <li><a href="#" className="hover:text-sunset transition-colors">Book Now</a></li>
+                <li><a href="#services" className="hover:text-sunset transition-colors">Services</a></li>
+                <li><a href="#reviews" className="hover:text-sunset transition-colors">Reviews</a></li>
+                <li><a href="#gallery" className="hover:text-sunset transition-colors">Gallery</a></li>
+                <li><a href="https://book.heygoldie.com/Precision-Edge-Auto-Detail/checkout" target="_blank" rel="noreferrer" className="hover:text-sunset transition-colors">Book Now</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-black italic uppercase text-warm-white mb-4">Contact</h4>
               <ul className="space-y-2 text-warm-white/60 text-[10px] font-bold uppercase tracking-widest">
                 <li><a href="tel:9567061732" className="hover:text-sunset transition-colors">(956) 706-1732</a></li>
-                <li>Miami, FL</li>
                 <li>Open until 8 PM</li>
               </ul>
             </div>

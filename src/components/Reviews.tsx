@@ -24,7 +24,7 @@ export function Reviews() {
   }, []);
 
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="reviews" className="py-24 relative overflow-hidden">
       {/* Decorative background */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-graphite/30" />
       <div className="absolute top-1/2 left-1/4 w-[500px] h-[500px] bg-sunset/10 rounded-full blur-[120px] pointer-events-none -translate-y-1/2" />

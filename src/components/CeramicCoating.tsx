@@ -16,7 +16,7 @@ export function CeramicCoating() {
   const textOpacity = useTransform(scrollYProgress, [0, 0.5], [0, 1]);
 
   return (
-    <section ref={containerRef} className="h-[150vh] relative bg-charcoal">
+    <section ref={containerRef} className="h-[110vh] relative bg-charcoal">
       <div className="sticky top-0 h-screen overflow-hidden flex items-center justify-center">
         
         {/* Car Image with animated saturation */}
@@ -67,7 +67,7 @@ export function CeramicCoating() {
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-transparent to-transparent" />
 
         {/* Content */}
-        <div className="relative z-10 container mx-auto px-6 h-full flex flex-col justify-end pb-32">
+        <div className="relative z-10 container mx-auto px-6 h-full flex flex-col justify-end pb-16">
           <motion.div 
             className="max-w-3xl"
             style={{ y: textY, opacity: textOpacity }}
@@ -85,9 +85,9 @@ export function CeramicCoating() {
               Hydrophobic finish. Long-lasting gloss. Easier maintenance. Shield your investment from the elements.
             </p>
 
-            <button className="px-10 py-5 bg-gradient-to-r from-sunset to-coral rounded-sm font-black italic uppercase text-black transition-transform hover:scale-105 shadow-[0_0_30px_rgba(255,99,33,0.5)]">
+            <a href="https://book.heygoldie.com/Precision-Edge-Auto-Detail/checkout" target="_blank" rel="noreferrer" className="inline-block px-10 py-5 bg-gradient-to-r from-sunset to-coral rounded-sm font-black italic uppercase text-black transition-transform hover:scale-105 shadow-[0_0_30px_rgba(255,99,33,0.5)]">
               Get a Coating Quote
-            </button>
+            </a>
           </motion.div>
         </div>
 

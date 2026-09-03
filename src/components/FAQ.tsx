@@ -8,7 +8,7 @@ const faqs = [
   { q: "Can you remove seat stains?", a: "Absolutely. We use professional-grade extractors and stain removers to treat and lift even the toughest stains from fabric seats and carpets." },
   { q: "Do you clean trucks and SUVs?", a: "Yes, we handle vehicles of all sizes, including heavy-duty trucks, lifted SUVs, and family minivans." },
   { q: "Do you offer ceramic coatings?", a: "Yes! We offer professional ceramic coating packages that provide long-lasting hydrophobic protection, incredible gloss, and easier maintenance." },
-  { q: "How do I book an appointment?", a: "You can book directly through our scheduling link at heygoldie.com, fill out the quote form on this site, or call us at (956) 706-1732." },
+  { q: "How do I book an appointment?", a: "You can book directly through our scheduling link at book.heygoldie.com/Precision-Edge-Auto-Detail/checkout, or call us at (956) 706-1732." },
 ];
 
 export function FAQ() {

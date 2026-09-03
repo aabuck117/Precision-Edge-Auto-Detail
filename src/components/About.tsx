@@ -82,9 +82,9 @@ export function About() {
               ))}
             </div>
             
-            <button className="mt-12 px-10 py-5 bg-gradient-to-r from-sunset to-coral rounded-sm font-black italic uppercase text-black overflow-hidden flex items-center gap-2 transition-transform hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,99,33,0.4)]">
+            <a href="https://book.heygoldie.com/Precision-Edge-Auto-Detail/checkout" target="_blank" rel="noreferrer" className="mt-12 px-10 py-5 bg-gradient-to-r from-sunset to-coral rounded-sm font-black italic uppercase text-black overflow-hidden inline-flex items-center gap-2 transition-transform hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,99,33,0.4)]">
               Schedule Your Detail
-            </button>
+            </a>
           </motion.div>
 
         </div>

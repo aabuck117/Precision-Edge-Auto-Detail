@@ -10,10 +10,10 @@ export function Header() {
         <a href="#services" className="hover:text-warm-white transition-colors">Services</a>
         <a href="#reviews" className="hover:text-warm-white transition-colors">Reviews</a>
         <a href="#gallery" className="hover:text-warm-white transition-colors">Gallery</a>
-        <a href="https://heygoldie.com" className="text-sunset hover:text-coral transition-colors">Book Now</a>
+        <a href="https://book.heygoldie.com/Precision-Edge-Auto-Detail/checkout" target="_blank" rel="noreferrer" className="text-sunset hover:text-coral transition-colors">Book Now</a>
       </nav>
       <div className="text-right">
-        <div className="text-sm font-bold text-warm-white">(956) 706-1732</div>
+        <a href="tel:9567061732" className="text-sm font-bold text-warm-white hover:text-sunset transition-colors block">(956) 706-1732</a>
         <div className="text-[10px] text-warm-white/50 font-bold uppercase tracking-wider">Open until 8 PM</div>
       </div>
     </header>

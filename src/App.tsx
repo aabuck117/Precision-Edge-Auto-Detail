@@ -4,15 +4,12 @@ import { LoadingScreen } from "./components/LoadingScreen";
 import { Hero } from "./components/Hero";
 import { TrustBar } from "./components/TrustBar";
 import { Reviews } from "./components/Reviews";
-import { BeforeAfter } from "./components/BeforeAfter";
 import { Services } from "./components/Services";
 import { About } from "./components/About";
 import { Process } from "./components/Process";
-import { StainRemoval } from "./components/StainRemoval";
 import { CeramicCoating } from "./components/CeramicCoating";
 import { Gallery } from "./components/Gallery";
 import { WhyChooseUs } from "./components/WhyChooseUs";
-import { Booking } from "./components/Booking";
 import { FAQ } from "./components/FAQ";
 import { FinalCTA, Footer } from "./components/FinalCTA";
 import { Phone, Calendar } from "lucide-react";
@@ -42,15 +39,12 @@ export default function App() {
         <Hero />
         <TrustBar />
         <Reviews />
-        <BeforeAfter />
         <Services />
         <About />
         <Process />
-        <StainRemoval />
         <CeramicCoating />
         <Gallery />
         <WhyChooseUs />
-        <Booking />
         <FAQ />
         <FinalCTA />
         <Footer />
@@ -66,7 +60,7 @@ export default function App() {
             exit={{ y: 100, opacity: 0 }}
           >
             <a 
-              href="https://heygoldie.com" 
+              href="https://book.heygoldie.com/Precision-Edge-Auto-Detail/checkout" 
               target="_blank" 
               rel="noreferrer"
               className="flex-1 bg-gradient-to-r from-sunset to-coral py-3 px-4 rounded-full font-bold text-center shadow-lg pointer-events-auto flex items-center justify-center gap-2 text-sm"
